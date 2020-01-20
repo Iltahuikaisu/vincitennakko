@@ -1,0 +1,22 @@
+{
+  "name": "vincitbackend",
+  "version": "1.0.0",
+  "description": "backend for vincit excercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "run": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "author": "Aaro-Antero Kurki",
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

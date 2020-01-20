@@ -1,0 +1,15 @@
+const cookieAlert = (props) => {
+    const [show, setShow] = useState(true)
+    if (show) {
+        return(
+            <footer>
+                <Alert dismissible variant={'warning'} onClose={()=>setShow(false)}>This app uses cookies to store data</Alert>
+            </footer>
+        )
+    } else {
+        return(
+            <>
+            </>
+        )
+    }
+}
